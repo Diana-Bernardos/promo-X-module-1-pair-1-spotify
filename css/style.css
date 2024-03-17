@@ -1,12 +1,46 @@
 .logo{
     background-color: black;
+    display: inline-block 50px;
+    width: 480px;
+    padding: 10px;
+}
+.nombre{
+    width: 50px;
+}
+.menu{
+    width: 20px;
 }
 .titulo1{
     background-color:rgb(38, 133, 229);
+    display: inline-block 50px;
+    padding: 10px;
     color: white;
+    width: 480px;
+    text-align: center;
 }
 .boton{
-    background-color: green;
-    width: 100%;
+    background-color:#1ed760;
+    width: 100%    
+}
+.subtitulos{
+    margin-left: 100px;
+}
+.container{
+    display: flex;
+    padding: 10px;
+} 
+.image {
+    width: 100px;
+    margin-right: 50px;
+    margin-left: 30px;
+}
+.texto{
+    align-self: center;
+}
+.footer{
+    background-color: black;
+    display: inline-block 50px;
+    width: 480px;
+    padding: 10px
 
 }
