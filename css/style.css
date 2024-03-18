@@ -1,35 +1,56 @@
 .logo{
+    display: flex;
     background-color: black;
     display: inline-block 50px;
-    width: 480px;
+    width: 100%;
     padding: 10px;
+    justify-content: space-between;
 }
 .nombre{
-    width: 50px;
+    width: 70px;
 }
 .menu{
     width: 20px;
 }
 .titulo1{
+    display: flex;
     background-color:rgb(38, 133, 229);
     display: inline-block 50px;
     padding: 10px;
     color: white;
-    width: 480px;
+    width: 100%;
     text-align: center;
+    flex-direction: column;
+
 }
 .boton{
     background-color:#1ed760;
     width: 100%    
 }
-.subtitulos{
+.subtitulo{
+    display: flex;
     margin-left: 100px;
 }
 .container{
     display: flex;
     padding: 10px;
 } 
-.image {
+.image1{
+    width: 100px;
+    margin-right: 50px;
+    margin-left: 30px;
+}
+.image2{
+    width: 100px;
+    margin-right: 50px;
+    margin-left: 30px;
+}
+.image3{
+    width: 100px;
+    margin-right: 50px;
+    margin-left: 30px;
+}
+.image4{
     width: 100px;
     margin-right: 50px;
     margin-left: 30px;
@@ -38,9 +59,9 @@
     align-self: center;
 }
 .footer{
+    display: flex;
     background-color: black;
-    display: inline-block 50px;
-    width: 480px;
-    padding: 10px
-
+    width: 100%;
+    padding: 80px;
+    
 }
