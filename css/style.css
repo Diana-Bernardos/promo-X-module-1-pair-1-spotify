@@ -2,7 +2,6 @@
     display: flex;
     background-color: black;
     display: inline-block 50px;
-    width: 100%;
     padding: 10px;
     justify-content: space-between;
 }
@@ -18,18 +17,24 @@
     display: inline-block 50px;
     padding: 10px;
     color: white;
-    width: 100%;
     text-align: center;
     flex-direction: column;
 
 }
-.boton{
+.a{
     background-color:#1ed760;
-    width: 100%    
+    width:50px;
+    display:block;
+    border-color:solid antiquewhite;
+    border-radius: 10px;
+    padding: 30px 30px;
+    text-decoration: none;
+      
 }
+
 .subtitulo{
     display: flex;
-    margin-left: 100px;
+    margin:10%;
 }
 .container{
     display: flex;
@@ -61,7 +66,6 @@
 .footer{
     display: flex;
     background-color: black;
-    width: 100%;
     padding: 80px;
     
 }
