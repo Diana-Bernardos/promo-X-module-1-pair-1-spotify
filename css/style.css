@@ -4,6 +4,10 @@
     display: inline-block 50px;
     padding: 10px;
     justify-content: space-between;
+    position: sticky;
+    left: 0;
+    top: 0;
+    z-index:100;
 }
 .nombre{
     width: 70px;
@@ -20,17 +24,21 @@
     text-align: center;
     flex-direction: column;
 
+
 }
-.a{
-    background-color:#1ed760;
-    width:50px;
-    display:block;
-    border-color:solid antiquewhite;
-    border-radius: 10px;
-    padding: 30px 30px;
+.btn{
+    background-color: rgb(94, 216, 94);
+    padding:7px;
+    border-radius: 15px;
     text-decoration: none;
-      
 }
+
+a{
+    color: white;
+}
+    
+  
+      
 
 .subtitulo{
     display: flex;
@@ -67,5 +75,8 @@
     display: flex;
     background-color: black;
     padding: 80px;
+    
+}
+nav{
     
 }
