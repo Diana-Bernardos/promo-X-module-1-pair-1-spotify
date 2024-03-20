@@ -1,4 +1,7 @@
-.logo{
+:root{
+    font-family: "oboto";
+}
+.cabecero{
     display: flex;
     background-color: black;
     display: inline-block 50px;
@@ -9,13 +12,13 @@
     top: 0;
     z-index:100;
 }
-.nombre{
+.logo{
     width: 70px;
 }
 .menu{
     width: 20px;
-    }
-.titulo1{
+}
+.titulo{
     display: flex;
     background-color:rgb(38, 133, 229);
     display: inline-block 50px;
@@ -24,25 +27,20 @@
     text-align: center;
     flex-direction: column;
 }
-.btn{
+.boton{
     background-color: rgb(94, 216, 94);
     padding:7px;
     border-radius: 15px;
     text-decoration: none;
 }
-.bloc-medio{
+.bloco-medio{
     display: flex;
     flex-direction: column;
     align-items: center;    
 }
-a{
-    color: white;
-    text-decoration: none;
-}
 .subtitulo{
     display: flex;
     margin:10%;
-    
 }
 .container{
     display: flex;
@@ -74,21 +72,31 @@ a{
 .footer{
     display: flex;
     background-color: black;
-    padding: 80px;    
-}
-.navfot{
-    color: white;
-    display: flex;
+    height: 150px;
     justify-content: space-between;
-    gap: 50px; 
+    align-items: center;
+    padding: 10px;        
 }
-.bandera{
-    display: flex;
-    align-items: end;
+a{
     color: white;
+    text-decoration: none;
+    padding-right: 15px;
 }
-@media all and (min-width:480px){
-    .menu{
-    
+.españa{
+    display: flex;  
+    flex-direction: column;              
+}
+.bandera{    
+    height: 30px;
+    align-items: center;
+}
+.esp{
+    color: white;
+    margin: 0;
+}
+ 
+@media all and (max-width:480px){
+    a{
+        flex-direction: column;    
     }
     }
