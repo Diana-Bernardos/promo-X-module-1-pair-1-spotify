@@ -14,7 +14,7 @@
 }
 .menu{
     width: 20px;
-}
+    }
 .titulo1{
     display: flex;
     background-color:rgb(38, 133, 229);
@@ -23,8 +23,6 @@
     color: white;
     text-align: center;
     flex-direction: column;
-
-
 }
 .btn{
     background-color: rgb(94, 216, 94);
@@ -32,18 +30,19 @@
     border-radius: 15px;
     text-decoration: none;
 }
-
+.bloc-medio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
 a{
     color: white;
     text-decoration: none;
 }
-    
-  
-      
-
 .subtitulo{
     display: flex;
     margin:10%;
+    
 }
 .container{
     display: flex;
@@ -75,17 +74,21 @@ a{
 .footer{
     display: flex;
     background-color: black;
-    padding: 80px;
-    
+    padding: 80px;    
 }
 .navfot{
-    position:sticky;
-    color:white;
+    color: white;
     display: flex;
-    text-align: end;
-    gap:50px;
-    top: 0;
-    left:0;
-    z-index: 100;
-    
+    justify-content: space-between;
+    gap: 50px; 
 }
+.bandera{
+    display: flex;
+    align-items: end;
+    color: white;
+}
+@media all and (min-width:480px){
+    .menu{
+    
+    }
+    }
