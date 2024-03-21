@@ -88,15 +88,28 @@ a{
 }
 .bandera{    
     height: 30px;
+    width: 50px;
     align-items: center;
+    text-align: center;
+    gap: 10px;
 }
 .esp{
     color: white;
     margin: 0;
 }
- 
-@media all and (max-width:480px){
-    a{
-        flex-direction: column;    
+span{
+    color: white;
+}
+
+nav{
+    display: none;
+}
+
+@media all and (min-width: 780px){
+    .menu{
+        display: none;        
     }
+    nav{
+        display: block;
     }
+   }
