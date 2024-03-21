@@ -75,7 +75,7 @@
     height: 150px;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;        
+    padding: 20px; 
 }
 a{
     color: white;
@@ -84,7 +84,8 @@ a{
 }
 .españa{
     display: flex;  
-    flex-direction: column;              
+    flex-direction: column; 
+
 }
 .bandera{    
     height: 30px;
@@ -99,10 +100,15 @@ a{
 }
 span{
     color: white;
+    gap:10px
 }
 
 nav{
-    display: none;
+ display: none;
+}
+.navfot{
+    display: flex;
+    flex-wrap: wrap;
 }
 
 @media all and (min-width: 780px){
