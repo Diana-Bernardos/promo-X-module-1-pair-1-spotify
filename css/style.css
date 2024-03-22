@@ -1,5 +1,13 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+
 :root{
-    font-family: "oboto";
+    font-family: "roboto";
 }
 .cabecero{
     display: flex;
@@ -27,11 +35,35 @@
     text-align: center;
     flex-direction: column;
 }
+h1{
+    font-size: 40px;
+    margin-top: 80px;
+    text-align: left;
+    line-height: 50px;
+    
+  
+}
+
+h3{
+    font-size: 20px;
+    text-align: left;
+    margin-top: 15px;
+    line-height: 30px;
+    
+}
+h6{
+    margin-top: 20px;
+    text-align: left;
+    margin-bottom: 20px;
+
+}
+    
 .boton{
     background-color: rgb(94, 216, 94);
     padding:7px;
     border-radius: 15px;
     text-decoration: none;
+    margin: 20px;
 }
 .bloco-medio{
     display: flex;
@@ -41,6 +73,7 @@
 .subtitulo{
     display: flex;
     margin:10%;
+    text-align: center;
 }
 .container{
     display: flex;
