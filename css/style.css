@@ -28,31 +28,26 @@
 }
 .titulo{
     display: flex;
-    background-color:#1d75de;
+    background-color:#1d75de;    
     display: inline-block 50px;
     padding: 10px;
     color: white;
     text-align: center;
     flex-direction: column;
 }
-.girl-dance{
-    display: none;
-}
+
 h1{
     font-size: 40px;
     margin-top: 80px;
     text-align: left;
-    line-height: 50px;
-    
-  
+    line-height: 50px;   
 }
 
 h3{
     font-size: 20px;
     text-align: left;
     margin-top: 15px;
-    line-height: 30px;
-    
+    line-height: 30px;    
 }
 h6{
     margin-top: 20px;
@@ -156,13 +151,14 @@ nav{
     }
     .boton{
         height: 35px;
-        width: 150px;        
-    }
-    .girl-dance{
-        width: 80px;
-        height: 80px; 
-        display: flex; 
-        position: absolute;           
+        width: 150px;     
      }
+    .titulo{
+        background-image: url(../premium_dancer.png);
+        background-repeat: no-repeat;
+        background-position: top right 10px;
+        height: 50vh;
+
+    }
      
    }
