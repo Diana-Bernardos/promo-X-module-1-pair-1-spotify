@@ -1,0 +1,169 @@
+/*@import 'core/variables';
+@import 'core/reset';
+@import 'components/code';
+@import 'components/links';
+@import 'layout/page';
+@import 'layout/header';
+@import 'layout/footer';
+@import 'pages/index';
+*/
+@import "core/reset";
+@import "core/variables";
+@import "layout/spoty";
+
+
+
+
+.cabecero{
+    display: flex;
+    background-color: black;
+    display: inline-block 50px;
+    padding: 10px;
+    justify-content: space-between;
+    position: sticky;
+    left: 0;
+    top: 0;
+    z-index:100;
+}
+.logo{
+    width: 70px;
+}
+.menu{
+    width: 20px;
+}
+.titulo{
+    display: flex;
+    background-color:#1d75de;    
+    display: inline-block 50px;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    flex-direction: column;
+}
+
+h1{
+    font-size: 40px;
+    margin-top: 80px;
+    text-align: left;
+    line-height: 50px;   
+}
+
+h3{
+    font-size: 20px;
+    text-align: left;
+    margin-top: 15px;
+    line-height: 30px;    
+}
+h6{
+    margin-top: 20px;
+    text-align: left;
+    margin-bottom: 20px;
+
+}
+    
+.boton{
+    background-color: rgb(94, 216, 94);        
+    border-radius: 15px;
+    padding: 7px;
+    text-decoration: none;
+    margin: 20px;
+}
+.bloco-medio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+.subtitulo{
+    display: flex;
+    margin:10%;
+    text-align: center;
+}
+.container{
+    display: flex;
+    padding: 10px;
+} 
+.image1{
+    width: 100px;
+    margin-right: 50px;
+    margin-left: 30px;
+}
+.image2{
+    width: 100px;
+    margin-right: 50px;
+    margin-left: 30px;
+}
+.image3{
+    width: 100px;
+    margin-right: 50px;
+    margin-left: 30px;
+}
+.image4{
+    width: 100px;
+    margin-right: 50px;
+    margin-left: 30px;
+}
+.texto{
+    align-self: center;
+}
+.footer{
+    display: flex;
+    background-color: black;
+    height: 150px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px; 
+}
+a{
+    color: white;
+    text-decoration: none;
+    padding-right: 25px;
+}
+.españa{
+    display: flex;  
+    flex-direction: column; 
+
+}
+.bandera{    
+    height: 30px;
+    width: 50px;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+.esp{
+    color: white;
+    margin: 0;
+}
+span{
+    color: white;
+    gap:10px
+}
+
+nav{
+ display: none;
+}
+.navfot{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media all and (min-width: 768px){
+    .menu{
+        display: none;        
+    }
+    nav{
+        display: block;
+    }
+    .boton{
+        height: 35px;
+        width: 150px;     
+     }
+    .titulo{
+        background-image: url(../premium_dancer.png);
+        background-repeat: no-repeat;
+        background-position: top right 10px;
+        height: 50vh;
+
+    }
+     
+   }
