@@ -1,0 +1,28 @@
+.cabecero{
+    display: flex;
+    background-color: black;
+    display: inline-block 50px;
+    padding: 10px;
+    justify-content: space-between;
+    position: sticky;
+    left: 0;
+    top: 0;
+    z-index:100;
+}
+
+.logo{
+    width: 70px;
+}
+
+.menu{
+    width: 20px;
+}
+
+@media all and (min-width: 768px){
+    .menu{
+        display: none;        
+    }
+    nav{
+        display: block;
+    } 
+   }

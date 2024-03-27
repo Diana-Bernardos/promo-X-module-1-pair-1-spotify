@@ -9,10 +9,9 @@
 */
 @import "core/reset";
 @import "core/variables";
-@import "layout/spoty";
-
-
-
+@import "layout/body";
+@import "layout/footer";
+@import "layout/header";
 
 .cabecero{
     display: flex;

@@ -1,0 +1,47 @@
+.footer{
+    display: flex;
+    background-color: black;
+    height: 150px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px; 
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    padding-right: 25px;
+}
+
+.españa{
+    display: flex;  
+    flex-direction: column; 
+
+}
+
+.bandera{    
+    height: 30px;
+    width: 50px;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.esp{
+    color: white;
+    margin: 0;
+}
+
+span{
+    color: white;
+    gap:10px
+}
+
+nav{
+ display: none;
+}
+
+.navfot{
+    display: flex;
+    flex-wrap: wrap;
+}
