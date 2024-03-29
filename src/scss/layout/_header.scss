@@ -16,13 +16,14 @@
 
 .menu{
     width: 20px;
-}
 
-@media all and (min-width: 768px){
-    .menu{
-        display: none;        
-    }
+    @media all and (min-width: 768px){
+        .menu{
+            display: none;        
+        }
+
     nav{
         display: block;
     } 
    }
+}
